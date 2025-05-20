@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #2c2b2b;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -14,28 +14,31 @@ header {
 
 main {
   margin: 3em 0;
+  color: white;
 }
 
 button {
-  padding: 1em 2em;
-  font-size: 1rem;
-  background-color: #007BFF;
-  color: white;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #9fa1a141;
+  color: rgb(196, 190, 190);
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #afabab;
 }
 
 footer {
-  background-color: #eee;
+  background-color: #222121;
   padding: 1em 0;
   position: fixed;
   width: 100%;
   bottom: 0;
+  color: white;
 }
 
 #previewContainer {
